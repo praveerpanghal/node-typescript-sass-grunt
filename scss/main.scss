@@ -1,0 +1,7 @@
+@mixin set-font-size($font) {
+   font-size: $font;
+  }
+  
+  .box {
+       @include set-font-size(40px);
+     }
